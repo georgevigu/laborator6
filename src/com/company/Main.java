@@ -26,5 +26,16 @@ public class Main {
         for(String i:studenti) {
             System.out.println(i);
         }
+        
+        System.out.println("\n\n");
+        Lion lion = new Lion();
+        lion.eat();
+        lion.sound();
+        Tiger tiger = new Tiger();
+        tiger.eat();
+        tiger.sound();
+        Panther panther = new Panther();
+        panther.eat();
+        panther.sound();
      }
 }
